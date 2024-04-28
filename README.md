@@ -1,2 +1,15 @@
 # LoginToNcuInternet
 自动登录至南昌大学宽带的脚本
+使用指南：
+```
+nvm use v20
+npm install puppeteer
+```
+重命名configExample.json为config.json,在其中将username、password、domain修改为自己的值
+```
+node login.js
+```
+设置为开机自启:
+将login.bat中的node "Path\To\Login.js"替换为你实际的路径，
+Win+R输入shell:startup
+然后将login.bat放入其中
