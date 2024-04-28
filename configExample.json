@@ -1,0 +1,6 @@
+{
+    "username": "username",     
+    "password": "password",
+    "domain": "@cmcc",      //移动为@cmcc,校园网为@ncu,电信为@ndcard,联通为@unicom
+    "headless": false    //是否启用无头模式,若启用则不会打开浏览器
+}
