@@ -12,7 +12,7 @@ npm install puppeteer
 node login.js
 ```
 ### 设置为开机自启:
-将login.bat中的node "Path\To\Login.js"替换为你实际的路径，\n
+将login.bat中的node "Path\To\Login.js"替换为你实际的路径，  
 Win+R输入
 ```
 shell:startup
