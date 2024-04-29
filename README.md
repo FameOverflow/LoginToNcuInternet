@@ -13,6 +13,7 @@ node login.js
 ```
 ### 设置为开机自启:
 将login.bat中的node "Path\To\Login.js"替换为你实际的路径，  
+将login.js中fs.readFileSync('config.json', 'utf8');中的config.json替换为配置文件的实际路径
 Win+R输入
 ```
 shell:startup

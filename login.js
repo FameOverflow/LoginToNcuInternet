@@ -3,12 +3,11 @@ const fs = require('fs');
 
 (async () => {
     // Read the config file
-    const data = fs.readFileSync('config.json', 'utf8');
+    const data = fs.readFileSync('D:/Code/Login/config.json', 'utf8');
     const config = JSON.parse(data);
 
     const browser = await puppeteer.launch({
         headless: config.headless,
-        userDataDir: './data',
     });
     const page = await browser.newPage();
     await page.goto('http://222.204.3.154');
